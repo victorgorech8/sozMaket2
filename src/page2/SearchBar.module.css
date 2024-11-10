@@ -1,0 +1,26 @@
+.searchContainer {
+    display: flex;
+    border: 1px solid #000;
+}
+
+.searchInput {
+    color: #b9b9b9;
+    -webkit-text-stroke: 1px #000;
+    opacity: 0.5;
+    font: 400 14px 'Neue Montreal', -apple-system, Roboto, Helvetica, sans-serif;
+    border: none;
+    padding: 5px 12px;
+    flex-grow: 1;
+}
+
+.searchButton {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.searchIcon {
+    width: 14px;
+    height: 14px;
+}

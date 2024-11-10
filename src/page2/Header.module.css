@@ -1,0 +1,43 @@
+.header {
+    background-color: #dec7b1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+    padding: 33px 71px;
+}
+
+.logo {
+    color: #000;
+    flex-grow: 1;
+    font: 500 64px 'Abhaya Libre Medium', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    gap: 52px;
+    color: #000;
+    font: 400 24px Roboto, sans-serif;
+}
+
+.navItem {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .navigation {
+        flex-basis: 100%;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}

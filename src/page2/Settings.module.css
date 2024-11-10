@@ -1,0 +1,33 @@
+.settingsSection {
+    font-family: 'Alumni Sans', sans-serif;
+    color: #000;
+    font-weight: 400;
+}
+
+.settingsTitle {
+    font-size: 96px;
+    letter-spacing: -3.84px;
+}
+
+.settingsList {
+    font-size: 48px;
+    letter-spacing: -1.92px;
+    margin-top: 105px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.settingsItem {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    .settingsTitle {
+        font-size: 40px;
+    }
+
+    .settingsList {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+}

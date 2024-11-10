@@ -1,0 +1,16 @@
+.nuanceAndIdentity {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.mainContent {
+    padding: 135px 0 0 125px;
+}
+
+@media (max-width: 991px) {
+    .mainContent {
+        padding: 40px 20px;
+    }
+}
