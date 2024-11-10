@@ -1,0 +1,69 @@
+.footer {
+    border-radius: 5px;
+    background-color: rgba(253, 247, 240, 1);
+    padding: 60px 70px 109px;
+    margin-top: 72px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1673px;
+    margin: 0 auto;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font: 400 24px Roboto, sans-serif;
+}
+
+.phoneNumber {
+    margin-bottom: 21px;
+}
+
+.brandInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.brandName {
+    font: 600 128px/0.8 Alumni Sans, sans-serif;
+    letter-spacing: -5.12px;
+}
+
+.copyrightInfo {
+    margin-top: 59px;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -1.28px;
+    text-align: right;
+}
+
+@media (max-width: 991px) {
+    .footer {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 40px 20px;
+    }
+
+    .footerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactInfo {
+        margin-bottom: 40px;
+    }
+
+    .brandName {
+        font-size: 40px;
+    }
+
+    .copyrightInfo {
+        margin-top: 20px;
+        text-align: center;
+    }
+}

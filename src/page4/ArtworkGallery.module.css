@@ -1,0 +1,31 @@
+.artworkGallery {
+    width: 100%;
+    max-width: 1423px;
+    margin-top: 256px;
+}
+
+.galleryTitle {
+    color: #000;
+    font: 500 40px 'Abhaya Libre Medium', -apple-system, Roboto, Helvetica, sans-serif;
+    margin-bottom: 109px;
+}
+
+.artworkGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 991px) {
+    .artworkGallery {
+        margin-top: 40px;
+    }
+
+    .galleryTitle {
+        margin-bottom: 40px;
+    }
+
+    .artworkGrid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,19 @@
+.pageContainer {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 70px;
+}
+
+@media (max-width: 991px) {
+    .mainContent {
+        padding: 0 20px;
+    }
+}

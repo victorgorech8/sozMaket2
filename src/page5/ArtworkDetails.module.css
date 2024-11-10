@@ -1,0 +1,144 @@
+.artworkDetails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 72px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.thumbnail {
+    width: 156px;
+    height: 156px;
+    background-color: #e7e2dc;
+}
+
+.mainImageContainer {
+    position: relative;
+    flex-grow: 1;
+}
+
+.mainImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.watermark {
+    position: absolute;
+    top: 18px;
+    right: 80px;
+    width: 46px;
+    height: auto;
+}
+
+.artworkInfo {
+    flex-basis: 40%;
+    font: 400 36px Roboto, sans-serif;
+}
+
+.artworkTitle {
+    font-weight: 500;
+}
+
+.artistName {
+    font-family: 'Alumni Sans', sans-serif;
+    letter-spacing: -1.44px;
+    margin-top: 48px;
+}
+
+.artworkDescription {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 34px;
+}
+
+.priceSection {
+    margin-top: 163px;
+}
+
+.priceDivider {
+    border: 1px solid #000;
+}
+
+.priceActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.price {
+    font: 64px 'Alumni Sans', sans-serif;
+    letter-spacing: -2.56px;
+}
+
+.contactButton {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px 55px;
+    font: 64px 'Alumni Sans', sans-serif;
+    letter-spacing: -2.56px;
+    cursor: pointer;
+}
+
+.viewCount {
+    width: 100%;
+    font: 300 24px Roboto, sans-serif;
+    margin-top: 22px;
+}
+
+.viewLabel {
+    font-weight: 400;
+}
+
+.additionalInfo {
+    width: 100%;
+    max-width: 588px;
+    margin-top: 72px;
+    font: 300 24px Roboto, sans-serif;
+}
+
+.infoTitle {
+    font-weight: 400;
+}
+
+@media (max-width: 991px) {
+    .artworkDetails {
+        flex-direction: column;
+    }
+
+    .mainImageContainer {
+        order: -1;
+    }
+
+    .watermark {
+        right: 20px;
+    }
+
+    .artworkInfo {
+        flex-basis: 100%;
+    }
+
+    .artistName {
+        margin-top: 40px;
+    }
+
+    .priceSection {
+        margin-top: 40px;
+    }
+
+    .price,
+    .contactButton {
+        font-size: 40px;
+    }
+
+    .additionalInfo {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}

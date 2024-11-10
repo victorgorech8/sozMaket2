@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    letter-spacing: -1.28px;
+    font: 300 32px 'Alumni Sans', sans-serif;
+    margin-top: 117px;
+}
+
+.footerText {
+    line-height: 1;
+}
+
+.footerCopyright {
+    line-height: 34px;
+    margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footerCopyright {
+        margin-right: 10px;
+    }
+}

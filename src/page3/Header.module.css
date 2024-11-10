@@ -1,0 +1,61 @@
+.header {
+    background-color: rgba(222, 199, 177, 1);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    padding: 24px 70px 45px;
+    font: 400 24px Roboto, sans-serif;
+}
+
+.logo {
+    font: 500 128px/0.8 Alumni Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -5.12px;
+    flex-grow: 1;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.userActions {
+    display: flex;
+    gap: 40px;
+}
+
+.actionLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 991px) {
+    .header {
+        max-width: 100%;
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .navigation,
+    .userActions {
+        margin-top: 20px;
+    }
+}

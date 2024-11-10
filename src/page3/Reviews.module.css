@@ -1,0 +1,33 @@
+.reviewsSection {
+    display: flex;
+    gap: 20px;
+    margin: 97px 0 0 12px;
+}
+
+.reviewColumn {
+    background-color: rgba(231, 226, 220, 1);
+    flex-grow: 1;
+    padding: 40px 54px 224px;
+}
+
+.reviewTitle {
+    color: rgba(0, 0, 0, 1);
+    font: 500 48px/1 Abhaya Libre Medium, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -1.92px;
+}
+
+@media (max-width: 991px) {
+    .reviewsSection {
+        flex-direction: column;
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .reviewColumn {
+        padding: 0 20px 100px;
+    }
+
+    .reviewTitle {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,526 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #8d8d8d;
+}
+
+.header {
+    background-color: #dec7b1;
+    display: flex;
+    width: 100%;
+    padding: 24px 0;
+    color: #000;
+    font: 400 24px Roboto, sans-serif;
+}
+
+.headerContent {
+    display: flex;
+    width: 100%;
+    max-width: 1652px;
+    align-items: center;
+    gap: 40px 100px;
+    margin: 0 auto;
+}
+
+.logo {
+    letter-spacing: -5.12px;
+    flex-grow: 1;
+    font: 500 128px/0.8 'Alumni Sans', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.navLinks {
+    display: flex;
+    gap: 40px 45px;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+
+.navLink {
+    flex-basis: auto;
+}
+
+.userLinks {
+    display: flex;
+    gap: 40px 71px;
+    margin: auto 0;
+}
+
+.headerDivider {
+    min-height: 4px;
+    margin-top: 21px;
+    width: 100%;
+    border: 4px solid #d11717;
+}
+
+.mainContent {
+    display: flex;
+    margin-top: 140px;
+    width: 100%;
+    max-width: 1633px;
+    flex-direction: column;
+    align-items: start;
+    align-self: center;
+}
+
+.titleBar {
+    display: flex;
+    width: 100%;
+    max-width: 1575px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.pageTitle {
+    color: #000;
+    letter-spacing: -3.84px;
+    font: 400 96px 'Alumni Sans', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.settingsWrapper {
+    display: flex;
+    margin-top: 16px;
+    gap: 20px;
+    align-self: start;
+}
+
+.settingsText {
+    color: #000;
+    flex-grow: 1;
+    font: 400 36px Roboto, sans-serif;
+}
+
+.hamburgerIcon {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.hamburgerLine {
+    height: 4px;
+    border: 4px solid #000;
+    margin-top: 10px;
+}
+
+.hamburgerLine:first-child {
+    margin-top: 0;
+}
+
+.profileSection {
+    width: 923px;
+    max-width: 100%;
+    margin: 120px 0 0 148px;
+}
+
+.profileContent {
+    display: flex;
+    gap: 20px;
+}
+
+.profileImage {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 1000px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #000;
+    margin: auto 0;
+}
+
+.profileName {
+    letter-spacing: -1.92px;
+    align-self: start;
+    font: 400 48px 'Alumni Sans', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.profileDetails {
+    margin-top: 61px;
+    font: 300 32px Roboto, sans-serif;
+}
+
+.auctionButton {
+    background-color: #99f692;
+    width: 321px;
+    max-width: 100%;
+    color: #000;
+    white-space: nowrap;
+    letter-spacing: -2.56px;
+    margin: 73px 0 0 226px;
+    padding: -7px 70px 0;
+    font: 400 64px 'Alumni Sans', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.gallerySection {
+    display: flex;
+    margin-top: 251px;
+    width: 100%;
+    max-width: 1527px;
+    gap: 20px;
+    justify-content: space-between;
+    align-self: end;
+}
+
+.galleryItem {
+    background-color: #e7e2dc;
+    display: flex;
+    flex-direction: column;
+}
+
+.galleryImage {
+    aspect-ratio: 0.91;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+.subscriptionSection {
+    color: #000;
+    letter-spacing: -2.56px;
+    margin-top: 192px;
+    font: 500 64px/1 'Abhaya Libre Medium', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.subscriptionContent {
+    margin-top: 38px;
+    width: 1038px;
+    max-width: 100%;
+}
+
+.subscriptionPlan {
+    border-radius: 20px;
+    background-color: #dec7b1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    font-family: 'Abhaya Libre Medium', -apple-system, Roboto, Helvetica, sans-serif;
+    color: #000;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 32px 57px 32px 18px;
+}
+
+.planHeader {
+    display: flex;
+    margin-left: 23px;
+    width: 334px;
+    max-width: 100%;
+    gap: 20px;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.planName {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -1.6px;
+    align-self: start;
+}
+
+.planPrice {
+    font-size: 48px;
+    line-height: 51px;
+    letter-spacing: -1.92px;
+}
+
+.planFeatures {
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.96px;
+    margin-top: 56px;
+}
+
+.planValidity {
+    background-color: #b2a08d;
+    width: 381px;
+    max-width: 100%;
+    font-size: 36px;
+    letter-spacing: -1.44px;
+    line-height: 1;
+    margin: 123px 0 0 14px;
+    padding: 10px 20px 23px;
+}
+
+.bonusSection {
+    color: #000;
+    letter-spacing: -2.56px;
+    margin-top: 134px;
+    font: 500 64px/1 'Abhaya Libre Medium', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.bonusContent {
+    align-self: stretch;
+    margin-top: 83px;
+}
+
+.bonusGrid {
+    display: flex;
+    gap: 20px;
+}
+
+.bonusCard {
+    border-radius: 20px;
+    background-color: #dec7b1;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-family: 'Abhaya Libre Medium', -apple-system, Roboto, Helvetica, sans-serif;
+    color: #000;
+    font-weight: 500;
+    line-height: 1;
+    width: 100%;
+    padding: 59px 41px 0;
+}
+
+.bonusTitle {
+    font-size: 40px;
+    letter-spacing: -1.6px;
+}
+
+.bonusDetails {
+    background-color: #b2a08d;
+    display: flex;
+    margin-top: 41px;
+    flex-direction: column;
+    padding: 0 5px 22px 20px;
+}
+
+.bonusPercentage {
+    font-size: 128px;
+    letter-spacing: -5.12px;
+    align-self: center;
+    z-index: 10;
+    margin: -7px 0 0 20px;
+}
+
+.bonusCode {
+    font-size: 32px;
+    letter-spacing: -1.28px;
+    margin-top: 12px;
+}
+
+.footer {
+    border-radius: 5px;
+    background-color: #fdf7f0;
+    display: flex;
+    margin-top: 818px;
+    width: 100%;
+    gap: 20px;
+    color: #000;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 65px 109px;
+}
+
+.footerContact {
+    align-self: end;
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    text-transform: uppercase;
+    font: 400 24px Roboto, sans-serif;
+}
+
+.footerPhone {
+    align-self: start;
+}
+
+.footerEmail {
+    margin-top: 21px;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+.footerLogoText {
+    font-size: 128px;
+    font-weight: 500;
+    line-height: 0.8;
+    letter-spacing: -5.12px;
+    align-self: start;
+}
+
+.footerCopyright {
+    align-self: end;
+    display: flex;
+    margin-top: 59px;
+    width: 234px;
+    max-width: 100%;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -1.28px;
+}
+
+.copyrightText {
+    line-height: 1;
+}
+
+.copyrightYear {
+    line-height: 34px;
+    margin-top: 14px;
+}
+
+@media (max-width: 991px) {
+    .logo {
+        font-size: 40px;
+    }
+
+    .headerContent {
+        max-width: 100%;
+    }
+
+    .navLinks {
+        max-width: 100%;
+    }
+
+    .mainContent {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .titleBar {
+        max-width: 100%;
+    }
+
+    .pageTitle {
+        max-width: 100%;
+        font-size: 40px;
+    }
+
+    .profileSection {
+        margin-top: 40px;
+    }
+
+    .profileContent {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .profileImage {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .profileInfo {
+        margin-top: 40px;
+    }
+
+    .profileName {
+        font-size: 40px;
+    }
+
+    .profileDetails {
+        margin-top: 40px;
+    }
+
+    .auctionButton {
+        font-size: 40px;
+        white-space: initial;
+        margin: 40px 0 0 10px;
+        padding: 0 20px;
+    }
+
+    .gallerySection {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .galleryItem {
+        padding: 0 20px 100px;
+    }
+
+    .subscriptionSection {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .subscriptionPlan {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+
+    .planHeader {
+        margin-left: 10px;
+        white-space: initial;
+    }
+
+    .planPrice {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .planFeatures {
+        margin-top: 40px;
+    }
+
+    .planValidity {
+        margin: 40px 0 0 10px;
+    }
+
+    .bonusSection {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .bonusContent {
+        max-width: 100%;
+        margin: 40px 2px 0 0;
+    }
+
+    .bonusGrid {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .bonusCard {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+
+    .bonusDetails {
+        margin-top: 40px;
+    }
+
+    .bonusPercentage {
+        font-size: 40px;
+    }
+
+    .footer {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px 100px;
+    }
+
+    .footerContact {
+        margin-top: 40px;
+    }
+
+    .footerLogoText {
+        font-size: 40px;
+    }
+
+    .footerCopyright {
+        margin-top: 40px;
+    }
+
+    .copyrightYear {
+        margin-right: 10px;
+    }
+}

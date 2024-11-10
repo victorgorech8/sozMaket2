@@ -1,0 +1,67 @@
+.card {
+    background-color: #e7e2dc;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alumni Sans', sans-serif;
+    color: #000;
+}
+
+.imageWrapper {
+    position: relative;
+    min-height: 346px;
+}
+
+.cardImage {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imageOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 13px 19px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+    line-height: 4;
+}
+
+.cardContent {
+    padding: 47px 19px 0;
+}
+
+.cardTitle {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 3;
+    letter-spacing: -1.44px;
+}
+
+.cardPrice {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 4;
+    letter-spacing: -0.96px;
+    margin-top: 29px;
+}
+
+.priceAmount {
+    font-size: 32px;
+}
+
+@media (max-width: 991px) {
+    .imageWrapper {
+        max-width: 100%;
+        padding: 100px 20px 0 0;
+    }
+
+    .cardContent {
+        margin: 40px 0 0 10px;
+    }
+}

@@ -1,0 +1,29 @@
+.descriptionSection {
+    margin: 0 0 0 12px;
+}
+
+.descriptionTitle {
+    color: rgba(0, 0, 0, 1);
+    font: 500 90px/1 Abhaya Libre Medium, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -3.6px;
+}
+
+.descriptionText {
+    color: rgba(0, 0, 0, 1);
+    font: 300 32px Roboto, sans-serif;
+    margin-top: 104px;
+}
+
+@media (max-width: 991px) {
+    .descriptionSection {
+        max-width: 100%;
+    }
+
+    .descriptionTitle {
+        font-size: 40px;
+    }
+
+    .descriptionText {
+        margin-top: 40px;
+    }
+}

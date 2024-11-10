@@ -1,0 +1,32 @@
+.cartPage {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cartContent {
+    flex: 1;
+    padding: 0 80px;
+    max-width: 1582px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cartTitle {
+    color: rgba(0, 0, 0, 1);
+    font: 500 96px 'Alumni Sans', -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -3.84px;
+    margin: 105px 0 91px;
+}
+
+@media (max-width: 991px) {
+    .cartContent {
+        padding: 0 20px;
+    }
+
+    .cartTitle {
+        font-size: 40px;
+        margin: 40px 0;
+    }
+}

@@ -1,0 +1,54 @@
+.header {
+    background-color: #dec7b1;
+    padding: 27px 77px 45px;
+    width: 100%;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #000;
+    font: 500 128px/0.8 'Alumni Sans', -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -5.12px;
+}
+
+.mainNav ul,
+.userNav ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.mainNav a,
+.userNav a {
+    color: #000;
+    font: 400 24px Roboto, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .headerContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mainNav ul,
+    .userNav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

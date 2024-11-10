@@ -1,0 +1,64 @@
+.cartItem {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.itemImage {
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.itemDetails {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemInfo {
+    font-family: Roboto, sans-serif;
+}
+
+.itemTitle {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.itemArtist {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 36px;
+    letter-spacing: -1.44px;
+    margin-top: 11px;
+}
+
+.itemPricing {
+    display: flex;
+    gap: 20px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 64px;
+    letter-spacing: -2.56px;
+}
+
+.itemSize {
+    width: 100%;
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+}
+
+.contactButton {
+    background-color: rgba(217, 217, 217, 1);
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 64px;
+    letter-spacing: -2.56px;
+    padding: 10px 66px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .itemPricing, .contactButton {
+        font-size: 40px;
+    }
+}

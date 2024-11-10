@@ -1,0 +1,77 @@
+.footer {
+    background-color: #fdf7f0;
+    border-radius: 5px;
+    padding: 60px 80px;
+    margin-top: 456px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contactInfo {
+    font: 400 24px Roboto, sans-serif;
+    text-transform: uppercase;
+}
+
+.phoneNumber,
+.email {
+    margin: 0;
+}
+
+.email {
+    margin-top: 21px;
+}
+
+.brandInfo {
+    text-align: right;
+}
+
+.brandName {
+    font: 500 128px/0.8 'Alumni Sans', sans-serif;
+    letter-spacing: -5.12px;
+    margin: 0;
+}
+
+.copyright {
+    font: 300 32px 'Alumni Sans', sans-serif;
+    letter-spacing: -1.28px;
+    margin-top: 59px;
+}
+
+.copyrightText,
+.copyrightYear {
+    margin: 0;
+}
+
+.copyrightYear {
+    margin-top: 14px;
+}
+
+@media (max-width: 991px) {
+    .footer {
+        padding: 40px 20px;
+        margin-top: 40px;
+    }
+
+    .footerContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .brandInfo {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .brandName {
+        font-size: 64px;
+    }
+
+    .copyright {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+}

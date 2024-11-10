@@ -1,0 +1,95 @@
+.subscriptionSection {
+    margin-top: 128px;
+}
+
+.sectionTitle {
+    color: rgba(0, 0, 0, 1);
+    font: 500 64px/1 Abhaya Libre Medium, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -2.56px;
+    text-align: center;
+}
+
+.plansContainer {
+    display: flex;
+    gap: 20px;
+    margin-top: 63px;
+}
+
+.subscriptionPlan {
+    flex: 1;
+    border-radius: 5px;
+    background-color: rgba(222, 199, 177, 1);
+    padding: 33px 47px;
+    font-family: Abhaya Libre Medium, -apple-system, Roboto, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.planHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planTitle {
+    font-size: 40px;
+    letter-spacing: -1.6px;
+}
+
+.planPrice {
+    font-size: 48px;
+    letter-spacing: -1.92px;
+}
+
+.planFeatures {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 64px;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -1.28px;
+}
+
+.subscribeButton {
+    background-color: rgba(178, 160, 141, 1);
+    border: none;
+    color: inherit;
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    padding: 11px 70px;
+    margin-top: 132px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .subscriptionSection {
+        margin-top: 40px;
+    }
+
+    .sectionTitle {
+        font-size: 40px;
+    }
+
+    .plansContainer {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .subscriptionPlan {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .planPrice {
+        font-size: 40px;
+    }
+
+    .planFeatures {
+        margin-top: 40px;
+    }
+
+    .subscribeButton {
+        margin-top: 40px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+}

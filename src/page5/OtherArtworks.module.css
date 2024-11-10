@@ -1,0 +1,42 @@
+.otherArtworks {
+    margin-top: 153px;
+}
+
+.sectionTitle {
+    color: #000;
+    font: 500 40px 'Abhaya Libre Medium', -apple-system, Roboto, Helvetica, sans-serif;
+    margin-bottom: 72px;
+}
+
+.artworkGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.artworkItem {
+    background-color: #e7e2dc;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.artworkImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .otherArtworks {
+        margin-top: 40px;
+    }
+
+    .sectionTitle {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .artworkGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
