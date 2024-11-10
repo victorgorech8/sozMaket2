@@ -1,0 +1,50 @@
+.artistProfile {
+    display: flex;
+    gap: 20px;
+    margin-top: 150px;
+    max-width: 843px;
+    width: 100%;
+}
+
+.profileImage {
+    flex: 0 0 64%;
+}
+
+.image {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.profileInfo {
+    flex: 0 0 36%;
+    font-family: Roboto, sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.infoTitle {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.infoDetails {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 131px;
+}
+
+@media (max-width: 991px) {
+    .artistProfile {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .profileImage, .profileInfo {
+        flex-basis: 100%;
+    }
+
+    .infoDetails {
+        margin-top: 40px;
+    }
+}

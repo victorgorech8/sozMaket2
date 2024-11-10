@@ -1,0 +1,49 @@
+.header {
+    background-color: rgba(222, 199, 177, 1);
+    padding: 27px 70px;
+    color: rgba(0, 0, 0, 1);
+    font: 400 24px Roboto, sans-serif;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1652px;
+    margin: 0 auto;
+}
+
+.logo {
+    font: 500 128px/0.8 'Alumni Sans', -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -5.12px;
+}
+
+.navigation, .userActions {
+    display: flex;
+    gap: 40px;
+}
+
+.navItem, .userItem {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .headerContent {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .navigation, .userActions {
+        flex-wrap: wrap;
+    }
+}
