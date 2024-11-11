@@ -5,11 +5,12 @@ import React from "react";
 import SozidaiApp from "./page1/SozidaiApp";
 import NuanceAndIdentity from "./page2/NuanceAndIdentity";
 import Sozidaiapp from "./page3/Sozidaiapp";
+import SozidaiApp1 from "./page01";
 
 
 function App() {
   return (
-      <Sozidaiapp/>
+      <SozidaiApp1/>
   );
 }
 
